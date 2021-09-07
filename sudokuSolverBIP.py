@@ -2,7 +2,7 @@ from pulp import *
 import numpy as np
 from termcolor import colored
 
-filePath, fileName = "D:\python code\sudoku", "example.txt"
+filePath, fileName = "D:\python code\sudoku", "example.txt" #change to meet your needs
 file = open(os.path.join(filePath,fileName))
 
 board = np.loadtxt(os.path.join(filePath,fileName),dtype="int64")
